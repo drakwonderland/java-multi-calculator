@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class MultiCalculator {
     public static void main(String[] args) {
         String[] menu = {
-            "0: Volume of a sphere",
-            "1: Perimeter of a rectangle",
-            "2: Circumference of a circle",
-            "3: Dollar to Peso conversion (and vice versa)"
+                "0: Volume of a sphere",
+                "1: Perimeter of a rectangle",
+                "2: Circumference of a circle",
+                "3: Dollar to Peso conversion (and vice versa)"
         };
 
         try (Scanner scanner = new Scanner(System.in)) {
@@ -63,7 +63,8 @@ public class MultiCalculator {
                         System.out.println("Invalid currency choice.");
                     }
                 }
-                default -> System.out.println("Invalid operation selected. Please run the program again and select 0, 1, 2, or 3.");
+                default -> System.out.println(
+                        "Invalid operation selected. Please run the program again and select the options 0, 1, 2, or 3.");
             }
         }
     }
