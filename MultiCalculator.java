@@ -64,7 +64,7 @@ public class MultiCalculator {
                     }
                 }
                 default -> System.out.println(
-                        "Invalid operation selected. Please run the program again and select the options 0, 1, 2, or 3.");
+                        "Invalid operation selected. Run the program again and select the options 0, 1, 2, or 3.");
             }
         }
     }
